@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
           <!-- Logo -->
           <a href="#home" class="logo">
             <span class="logo-icon">&lt;/&gt;</span>
-            <span class="logo-text">Portfolio</span>
+            <span class="logo-text">Welcome</span>
           </a>
           
           <!-- Desktop Navigation -->
@@ -86,6 +86,8 @@ import { CommonModule } from '@angular/common';
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        gap: 8px;
+        padding: 10px 18px;
       }
     }
     

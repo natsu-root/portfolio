@@ -479,7 +479,7 @@ import { CommonModule } from '@angular/common';
   `]
 })
 export class HeroComponent implements OnInit {
-  fullText = 'Computer Engineer';
+  fullText = 'Abiral Rai';
   displayedText = '';
   showCursor = true;
   currentRole = 'Full Stack Developer';

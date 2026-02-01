@@ -48,7 +48,7 @@ import { FormsModule } from '@angular/forms';
                       id="name" 
                       name="name" 
                       [(ngModel)]="formData.name"
-                      placeholder="John Doe"
+                      placeholder="Dull Name"
                       required>
                   </div>
                   <div class="form-group">
@@ -61,7 +61,7 @@ import { FormsModule } from '@angular/forms';
                       id="email" 
                       name="email" 
                       [(ngModel)]="formData.email"
-                      placeholder="john@example.com"
+                      placeholder="name@example.com"
                       required>
                   </div>
                 </div>
