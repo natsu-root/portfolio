@@ -67,7 +67,15 @@ import { CommonModule } from '@angular/common';
               <div class="glow-ring"></div>
               <div class="profile-container">
                 <div class="profile-placeholder">
-                  <i class="fas fa-user-graduate"></i>
+                  <div class="profile-placeholder">
+                <img
+                  src="https://res.cloudinary.com/dxktrmoul/image/upload/w_400,h_400,c_fill,g_face,f_auto,q_auto/profile_t9fi7b.jpg"
+                  alt="Profile photo"
+                  class="profile-image"
+                  loading="lazy"
+                />
+            </div>
+
                 </div>
               </div>
               <div class="floating-badges">
@@ -127,6 +135,18 @@ import { CommonModule } from '@angular/common';
     .hero-text {
       animation: fadeInUp 0.8s ease;
     }
+
+      .profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-container:hover .profile-image {
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
+}
     
     .greeting {
       display: flex;
