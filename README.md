@@ -18,6 +18,9 @@ A modern, responsive, and animated portfolio website built with Angular 19, Type
   - Workshops & Training
   - Contact form with social links
 
+## Demo Live Page
+https://natsu-root.github.io/portfolio/
+
 ## Tech Stack
 
 - **Framework**: Angular 19
