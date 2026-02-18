@@ -406,7 +406,7 @@ export class AboutComponent implements OnInit {
       degree: 'B.Tech in Computer Engineering',
       institution: 'Sikkim Institute of Science and Technology (SIST)',
       location: 'Namchi, South Sikkim, Chisopani',
-      period: '2022 - Present (Final Year)',
+      period: '2026 - Present (Final Year)',
       details: [
         'Pursuing Bachelor of Technology in Computer Engineering',
         'Currently doing 6-month internship at National Informatics Center (NIC) Sikkim',
@@ -418,7 +418,7 @@ export class AboutComponent implements OnInit {
       degree: 'Diploma in Computer Science and Technology',
       institution: 'Center for Computers and Communication Technology (CCCT)',
       location: 'Namchi, South Sikkim, Chisopani',
-      period: '2019 - 2022',
+      period: '2020 - 2023',
       details: [
         'Completed Diploma with specialization in Computer Science and Technology',
         'Major Project: Web and Mobile Application for School Management System',
